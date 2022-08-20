@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
-* {
+*{
   padding: 0;
   margin: 0;
   outline: 0;
@@ -34,7 +34,8 @@ nav{
 }
 
 nav svg{
-  gap: 0;
+  position: relative;
+  left: -2rem;
 }
 
 .logo{
@@ -95,6 +96,7 @@ nav svg{
   
   margin-left: 3rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -257,5 +259,38 @@ nav svg{
   color: #fff;
   margin-right: 2rem;
 }
+
+@media screen and (max-width: 1240px) {
+  .header-image{
+    width: 400px;
+  }
+
+  .header-text h2{
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1158px){
+
+  .api-heading{
+    font-size: 1.5rem;
+  }
+
+  .card-active{
+    margin-top: 2rem;
+    /* padding: 0.5rem; */
+    background-color: #fff;
+    color: #729ef1;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 8px #888888;
+  }
+
+  .card-active h3{
+    font-size: 1rem;
+
+  }
+}
+
 
 
