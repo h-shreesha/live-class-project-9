@@ -16,6 +16,7 @@ Here's the Live Deployed Website of ![Project09Badge](https://img.shields.io/bad
 - Got to learn about the flexbox.
 - got to learn how to design buttons and navbar
 - Also got to play with background images.
+- The project is also responsive.
 
 
-## Time taken to complete project is 6 hours
+## Time taken to complete project is 6.5 hours
