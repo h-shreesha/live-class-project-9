@@ -270,6 +270,20 @@ nav svg{
     color: #fff;
     font-size: 2rem;
   }
+
+  .blog-heading{
+    text-align: center;
+  }
+
+  .blog-cards{
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 1rem; */
+    gap: 2rem;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
 }
 @media screen and (max-width: 1158px){
 
@@ -278,7 +292,7 @@ nav svg{
   }
 
   .card-active{
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     /* padding: 0.5rem; */
     background-color: #fff;
     color: #729ef1;
@@ -289,6 +303,26 @@ nav svg{
   .card-active h3{
     font-size: 1rem;
 
+  }
+}
+
+@media screen and (max-width: 870px){
+
+  .header-image{
+    display: none;
+  }
+
+  .header-text h2{
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .header-text p{
+    text-align: center;
+  }
+
+  .header-text img{
+    justify-content: center;
   }
 }
 
